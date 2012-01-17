@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<fragment>
+   <extension
+         point="com.isencia.passerelle.engine.actorGroups">
+      <actorgroup
+            icon="icons/edna_group.gif"
+            id="org.dawb.passerelle.actors.actorgroup.edna"
+            name="Edna Plugins"
+            open="false"
+            priority="1">
+      </actorgroup>
+   </extension>
+   <extension
+         name="EDNA Actors"
+         point="com.isencia.passerelle.engine.actors">
+      <actor
+            class="org.dawb.passerelle.actors.edna.ThumbnailImagePlugin"
+            group="org.dawb.passerelle.actors.actorgroup.edna"
+            icon="icons/edna_thumbnail.png"
+            id="org.dawb.passerelle.edna.thumbnail"
+            name="Thumbnail Image">
+      </actor>
+      <actor
+            class="org.dawb.passerelle.actors.edna.ReadImageHeaderPlugin"
+            group="org.dawb.passerelle.actors.actorgroup.edna"
+            icon="icons/edna_imageheader.png"
+            id="org.dawb.passerelle.edna.read.image.header"
+            name="Read Image Header">
+      </actor>
+      <actor
+            class="org.dawb.passerelle.actors.edna.ImageIndexingPlugin"
+            group="org.dawb.passerelle.actors.actorgroup.edna"
+            icon="icons/edna_imageindex.png"
+            id="org.dawb.passerelle.edna.read.image.indexing"
+            name="Image Indexing">
+      </actor>
+      <actor
+            class="org.dawb.passerelle.actors.edna.ControlIndexingv10"
+            group="org.dawb.passerelle.actors.actorgroup.edna"
+            icon="icons/edna_imageindex.png"
+            id="org.dawb.passerelle.edna.control.indexing.v10"
+            name="MXv1 Indexing">
+      </actor>
+      <actor
+            class="org.dawb.passerelle.actors.edna.ControlIntegrationv10"
+            group="org.dawb.passerelle.actors.actorgroup.edna"
+            icon="icons/edna_imageindex.png"
+            id="org.dawb.passerelle.edna.control.integration.v10"
+            name="MXv1 Integration">
+      </actor>
+      <actor
+            class="org.dawb.passerelle.actors.edna.ControlStrategyv1_2"
+            group="org.dawb.passerelle.actors.actorgroup.edna"
+            icon="icons/edna_imageindex.png"
+            id="org.dawb.passerelle.edna.control.strategy.v1_2"
+            name="MXv1 Strategy Calculation">
+      </actor>
+      <actor
+            class="org.dawb.passerelle.actors.edna.ControlCharForReorientationv2_0"
+            group="org.dawb.passerelle.actors.actorgroup.edna"
+            icon="icons/edna_imageindex.png"
+            id="org.dawb.passerelle.edna.control.charforreorientation.v2_0"
+            name="MXv2 Char For Reorientation">
+      </actor>
+      <actor
+            class="org.dawb.passerelle.actors.edna.ControlCharAtNewOrientationv2_0"
+            group="org.dawb.passerelle.actors.actorgroup.edna"
+            icon="icons/edna_imageindex.png"
+            id="org.dawb.passerelle.edna.control.charatneworientation.v2_0"
+            name="MXv2 Char At New Orientation">
+      </actor>
+      <actor
+            class="org.dawb.passerelle.actors.edna.ControlInterfacev2_2"
+            group="org.dawb.passerelle.actors.actorgroup.edna"
+            icon="icons/edna_imageindex.png"
+            id="org.dawb.passerelle.edna.control.interface.v2_2"
+            name="MXv2 Interface v2.2">
+      </actor>
+      <actor
+            class="org.dawb.passerelle.actors.edna.PeakSearchv1_0"
+            group="org.dawb.passerelle.actors.actorgroup.edna"
+            icon="icons/edna_imageindex.png"
+            id="org.dawb.passerelle.edna.peaksearchv1_0"
+            name="Fable Peak Search">
+      </actor>
+      <actor
+            class="org.dawb.passerelle.actors.edna.ISPyBStoreDataCollectionv1_3"
+            group="org.dawb.passerelle.actors.actorgroup.edna"
+            icon="icons/edna_imageindex.png"
+            id="org.dawb.passerelle.edna.ispyb.store.data.collectionv1_3"
+            name="ISPyB Store Data Collection">
+      </actor>
+   </extension>
+   <extension
+         point="org.eclipse.ui.cheatsheets.cheatSheetContent">
+      <cheatsheet
+            category="org.dawb.passerelle.actors.cheat.sheet.category"
+            composite="true"
+            contentFile="cheat/workflow-edna-menu.xml"
+            id="org.dawb.passerelle.actors.edna.cheatsheet1485702126"
+            name="Workflows with EDNA actors">
+         <description>
+            EDNA workflows
+         </description>
+      </cheatsheet>
+   </extension>
+
+</fragment>

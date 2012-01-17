@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compositeCheatsheet name="Workflows with EDNA actors">
+   <taskGroup kind="set" name="EDNA Workflow Tutorials" skip="false">
+      <intro>
+         <b>Introduction</b>
+      </intro>
+      <onCompletion>
+         <b>Conclusion</b>
+      </onCompletion>
+      <task kind="cheatsheet" name="Introduction to EDNA actors and workflows" skip="false">
+         <intro>
+            An introduction to using EDNA actors in workflows. This tutorial is subject to being able to set up and run EDNA on your site as well as python and the other EDNA dendencies.
+         </intro>
+         <onCompletion>
+            <b>Conclusion</b>
+         </onCompletion>
+         <param name="path" value="workflow-edna.xml">
+         </param>
+      </task>
+   </taskGroup>
+</compositeCheatsheet>

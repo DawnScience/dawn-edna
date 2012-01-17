@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Edna Actors Fragment
+Bundle-SymbolicName: org.dawb.passerelle.actors.edna;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: DLS Ltd.
+Fragment-Host: org.dawb.passerelle.actors;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: org.dawb.passerelle.actors.edna
