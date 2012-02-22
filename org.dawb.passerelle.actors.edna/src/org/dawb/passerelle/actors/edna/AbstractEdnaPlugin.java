@@ -40,6 +40,7 @@ import org.dawb.passerelle.common.message.IVariable;
 import org.dawb.passerelle.common.message.IVariableProvider;
 import org.dawb.passerelle.common.message.MessageUtils;
 import org.dawb.passerelle.common.message.XPathVariable;
+import org.dawb.passerelle.common.parameter.ParameterUtils;
 import org.dawb.passerelle.editors.EdnaActorMultiPageEditor;
 import org.dawb.passerelle.editors.SubstitutionParticipant;
 import org.dawb.passerelle.editors.XPathParticipant;
@@ -548,7 +549,7 @@ public abstract class AbstractEdnaPlugin extends AbstractDataMessageTransformer 
  	    synchronized (param) {
 			
  	    	String path = param.getExpression();
- 	    	path = ModelUtils.substitute(path, this);
+ 	    	path = ParameterUtils.substitute(path, this);
  	    	IFile file = null;
 			// We generate a template input file if one does not exist.
 			// This is only applicable in the UI.
