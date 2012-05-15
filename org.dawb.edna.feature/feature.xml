@@ -89,10 +89,6 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <update label="dawb p2" url="http://svn.codespot.com/a/eclipselabs.org/dawb/p2/org.dawb.workbench.p2"/>
    </url>
 
-   <requires>
-      <import plugin="org.dawb.passerelle.actors" version="1.0.0" match="greaterOrEqual"/>
-   </requires>
-
    <plugin
          id="org.dawb.passerelle.actors.edna"
          download-size="0"
